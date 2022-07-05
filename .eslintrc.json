@@ -1,0 +1,19 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "arrow-parens": ["warning", "as-needed"],
+    "comma-dangle": ["warning", "always"],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "quotes": ["warning", "single"]
+  }
+}

@@ -70,6 +70,15 @@ npm run build
 npm start
 ```
 
+#### Run linter
+  
+```sh
+npm run lint
+```
+
+Use `npm run lint:fix` to fix the linter errors.
+
+
 ## Commands list
 
 ### Admin commands list
